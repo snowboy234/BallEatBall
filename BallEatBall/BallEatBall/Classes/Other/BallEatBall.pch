@@ -10,5 +10,6 @@
 #define BallEatBall_pch
 
 #import "Define.h"
+#import "UIView+TWFrame.h"
 
 #endif /* BallEatBall_pch */

@@ -12,6 +12,9 @@
 		FF829FB51F53AB490029881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB41F53AB490029881A /* Assets.xcassets */; };
 		FF829FB81F53AB490029881A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB61F53AB490029881A /* LaunchScreen.storyboard */; };
 		FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FC31F53ABA60029881A /* TWHomeViewController.m */; };
+		FF829FCE1F53F5940029881A /* UIView+TWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FCD1F53F5940029881A /* UIView+TWFrame.m */; };
+		FF829FD41F53F9D70029881A /* TWBall.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FD31F53F9D70029881A /* TWBall.m */; };
+		FF829FD71F53FDD80029881A /* TWMimi.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FD61F53FDD80029881A /* TWMimi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		FF829FC31F53ABA60029881A /* TWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHomeViewController.m; sourceTree = "<group>"; };
 		FF829FC51F53ABC30029881A /* BallEatBall.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallEatBall.pch; sourceTree = "<group>"; };
 		FF829FC61F53ABD30029881A /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		FF829FCC1F53F5940029881A /* UIView+TWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TWFrame.h"; sourceTree = "<group>"; };
+		FF829FCD1F53F5940029881A /* UIView+TWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWFrame.m"; sourceTree = "<group>"; };
+		FF829FD21F53F9D70029881A /* TWBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBall.h; sourceTree = "<group>"; };
+		FF829FD31F53F9D70029881A /* TWBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBall.m; sourceTree = "<group>"; };
+		FF829FD51F53FDD80029881A /* TWMimi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMimi.h; sourceTree = "<group>"; };
+		FF829FD61F53FDD80029881A /* TWMimi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMimi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,8 @@
 		FF829FBF1F53AB840029881A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FF829FCB1F53F5940029881A /* Category */,
+				FF829FC71F53EF110029881A /* View */,
 				FF829FC01F53AB840029881A /* Other */,
 				FF829FC11F53AB840029881A /* ViewController */,
 			);
@@ -102,6 +113,26 @@
 				FF829FC31F53ABA60029881A /* TWHomeViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FF829FC71F53EF110029881A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FD21F53F9D70029881A /* TWBall.h */,
+				FF829FD31F53F9D70029881A /* TWBall.m */,
+				FF829FD51F53FDD80029881A /* TWMimi.h */,
+				FF829FD61F53FDD80029881A /* TWMimi.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF829FCB1F53F5940029881A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FCC1F53F5940029881A /* UIView+TWFrame.h */,
+				FF829FCD1F53F5940029881A /* UIView+TWFrame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF829FD71F53FDD80029881A /* TWMimi.m in Sources */,
 				FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */,
 				FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */,
 				FF829FAA1F53AB490029881A /* main.m in Sources */,
+				FF829FD41F53F9D70029881A /* TWBall.m in Sources */,
+				FF829FCE1F53F5940029881A /* UIView+TWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +367,7 @@
 				FF829FBE1F53AB490029881A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
