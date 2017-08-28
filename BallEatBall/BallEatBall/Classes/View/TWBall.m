@@ -66,7 +66,6 @@
             if (self.tw_x > TWScreenWidth || self.tw_y > TWScreenHeight || self.tw_x < -self.tw_width || self.tw_y < -self.tw_height) {
                 [self.myTimer invalidate];
                 [self.delegate removeMe:self];
-                TWLog(@"超出边界移除");
             }
         }
     }

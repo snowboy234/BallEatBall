@@ -45,7 +45,6 @@
     return NO;
 }
 
-// 一批 0.3倍 一批0.6倍
 - (NSInteger)getRandomNumber:(int)from to:(int)to{
     return (NSInteger)(from + (arc4random() % (to - from + 1)));
 }
