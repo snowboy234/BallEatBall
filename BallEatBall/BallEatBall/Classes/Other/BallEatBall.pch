@@ -1,0 +1,14 @@
+//
+//  BallEatBall.pch
+//  BallEatBall
+//
+//  Created by 田伟 on 2017/8/28.
+//  Copyright © 2017年 田伟. All rights reserved.
+//
+
+#ifndef BallEatBall_pch
+#define BallEatBall_pch
+
+#import "Define.h"
+
+#endif /* BallEatBall_pch */

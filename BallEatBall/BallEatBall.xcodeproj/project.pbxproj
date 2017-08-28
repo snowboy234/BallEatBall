@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF829FAA1F53AB490029881A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FA91F53AB490029881A /* main.m */; };
+		FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FAC1F53AB490029881A /* AppDelegate.m */; };
+		FF829FB51F53AB490029881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB41F53AB490029881A /* Assets.xcassets */; };
+		FF829FB81F53AB490029881A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB61F53AB490029881A /* LaunchScreen.storyboard */; };
+		FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FC31F53ABA60029881A /* TWHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF829FA51F53AB490029881A /* BallEatBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallEatBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF829FA91F53AB490029881A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF829FAB1F53AB490029881A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF829FAC1F53AB490029881A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF829FB41F53AB490029881A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF829FB71F53AB490029881A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF829FB91F53AB490029881A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF829FC21F53ABA60029881A /* TWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHomeViewController.h; sourceTree = "<group>"; };
+		FF829FC31F53ABA60029881A /* TWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHomeViewController.m; sourceTree = "<group>"; };
+		FF829FC51F53ABC30029881A /* BallEatBall.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallEatBall.pch; sourceTree = "<group>"; };
+		FF829FC61F53ABD30029881A /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF829FA21F53AB490029881A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF829F9C1F53AB490029881A = {
+			isa = PBXGroup;
+			children = (
+				FF829FA71F53AB490029881A /* BallEatBall */,
+				FF829FA61F53AB490029881A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF829FA61F53AB490029881A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FA51F53AB490029881A /* BallEatBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF829FA71F53AB490029881A /* BallEatBall */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FBF1F53AB840029881A /* Classes */,
+				FF829FAB1F53AB490029881A /* AppDelegate.h */,
+				FF829FAC1F53AB490029881A /* AppDelegate.m */,
+				FF829FB41F53AB490029881A /* Assets.xcassets */,
+				FF829FB61F53AB490029881A /* LaunchScreen.storyboard */,
+				FF829FB91F53AB490029881A /* Info.plist */,
+				FF829FA81F53AB490029881A /* Supporting Files */,
+			);
+			path = BallEatBall;
+			sourceTree = "<group>";
+		};
+		FF829FA81F53AB490029881A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FA91F53AB490029881A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF829FBF1F53AB840029881A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FC01F53AB840029881A /* Other */,
+				FF829FC11F53AB840029881A /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF829FC01F53AB840029881A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FC51F53ABC30029881A /* BallEatBall.pch */,
+				FF829FC61F53ABD30029881A /* Define.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF829FC11F53AB840029881A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF829FC21F53ABA60029881A /* TWHomeViewController.h */,
+				FF829FC31F53ABA60029881A /* TWHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF829FA41F53AB490029881A /* BallEatBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF829FBC1F53AB490029881A /* Build configuration list for PBXNativeTarget "BallEatBall" */;
+			buildPhases = (
+				FF829FA11F53AB490029881A /* Sources */,
+				FF829FA21F53AB490029881A /* Frameworks */,
+				FF829FA31F53AB490029881A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallEatBall;
+			productName = BallEatBall;
+			productReference = FF829FA51F53AB490029881A /* BallEatBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF829F9D1F53AB490029881A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "田伟";
+				TargetAttributes = {
+					FF829FA41F53AB490029881A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF829FA01F53AB490029881A /* Build configuration list for PBXProject "BallEatBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF829F9C1F53AB490029881A;
+			productRefGroup = FF829FA61F53AB490029881A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF829FA41F53AB490029881A /* BallEatBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF829FA31F53AB490029881A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF829FB81F53AB490029881A /* LaunchScreen.storyboard in Resources */,
+				FF829FB51F53AB490029881A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF829FA11F53AB490029881A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */,
+				FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */,
+				FF829FAA1F53AB490029881A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF829FB61F53AB490029881A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF829FB71F53AB490029881A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF829FBA1F53AB490029881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF829FBB1F53AB490029881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF829FBD1F53AB490029881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BallEatBall/Classes/Other/BallEatBall.pch";
+				INFOPLIST_FILE = BallEatBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.BallEatBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF829FBE1F53AB490029881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BallEatBall/Classes/Other/BallEatBall.pch";
+				INFOPLIST_FILE = BallEatBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.BallEatBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF829FA01F53AB490029881A /* Build configuration list for PBXProject "BallEatBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF829FBA1F53AB490029881A /* Debug */,
+				FF829FBB1F53AB490029881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF829FBC1F53AB490029881A /* Build configuration list for PBXNativeTarget "BallEatBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF829FBD1F53AB490029881A /* Debug */,
+				FF829FBE1F53AB490029881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF829F9D1F53AB490029881A /* Project object */;
+}
