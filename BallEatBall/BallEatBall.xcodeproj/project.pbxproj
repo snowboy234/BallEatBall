@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF18B11A1F5560DD00D6BBE0 /* TWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B1191F5560DD00D6BBE0 /* TWGameViewController.m */; };
 		FF829FAA1F53AB490029881A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FA91F53AB490029881A /* main.m */; };
 		FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FAC1F53AB490029881A /* AppDelegate.m */; };
 		FF829FB51F53AB490029881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB41F53AB490029881A /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF18B1181F5560DD00D6BBE0 /* TWGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGameViewController.h; sourceTree = "<group>"; };
+		FF18B1191F5560DD00D6BBE0 /* TWGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGameViewController.m; sourceTree = "<group>"; };
 		FF829FA51F53AB490029881A /* BallEatBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallEatBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF829FA91F53AB490029881A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF829FAB1F53AB490029881A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 			children = (
 				FF829FC21F53ABA60029881A /* TWHomeViewController.h */,
 				FF829FC31F53ABA60029881A /* TWHomeViewController.m */,
+				FF18B1181F5560DD00D6BBE0 /* TWGameViewController.h */,
+				FF18B1191F5560DD00D6BBE0 /* TWGameViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF829FD71F53FDD80029881A /* TWMimi.m in Sources */,
+				FF18B11A1F5560DD00D6BBE0 /* TWGameViewController.m in Sources */,
 				FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */,
 				FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */,
 				FF829FAA1F53AB490029881A /* main.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TWHomeViewController.h"
+#import "TWGameViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    _window.rootViewController = [[TWHomeViewController alloc]init];
+    _window.rootViewController = [[TWGameViewController alloc]init];
     [_window makeKeyAndVisible];
     return YES;
 }
