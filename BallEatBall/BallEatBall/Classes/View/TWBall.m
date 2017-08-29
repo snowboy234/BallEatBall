@@ -33,8 +33,6 @@
 - (void)moveBall{
     BOOL paused = [self.delegate checkGameStatus];
     if (!paused) {
-        
-        // 初始化位置——变化中
         CGPoint start = _startPoint;
         CGPoint end = CGPointMake(-start.x, -start.y);
         

@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TWBall;
 
 @protocol TWBallDelegate <NSObject>
--(void)checkPosition:(id)ball;  // 检查位置
--(void)removeMe:(id)ball;
+-(void)checkPosition:(TWBall *)ball;  // 检查位置
+-(void)removeMe:(TWBall *)ball;
 -(BOOL)checkGameStatus;
 @end
 

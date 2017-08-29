@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol TWMimiDelegate <NSObject>
+- (void)gameoverNoti;
+@end
+
 @interface TWMimi : UIImageView
-
-- (void)checkIfCaught:(CGRect)frame;
-
+@property (nonatomic, weak) id <TWMimiDelegate> delegate;
+- (BOOL)checkIfCaught:(CGRect)frame;
 @end
