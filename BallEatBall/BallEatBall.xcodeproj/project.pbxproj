@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FF18B11A1F5560DD00D6BBE0 /* TWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B1191F5560DD00D6BBE0 /* TWGameViewController.m */; };
+		FF18B11D1F5641BA00D6BBE0 /* TWEge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B11C1F5641BA00D6BBE0 /* TWEge.m */; };
+		FF18B1201F564F8000D6BBE0 /* TWBan.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B11F1F564F8000D6BBE0 /* TWBan.m */; };
 		FF829FAA1F53AB490029881A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FA91F53AB490029881A /* main.m */; };
 		FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FAC1F53AB490029881A /* AppDelegate.m */; };
 		FF829FB51F53AB490029881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB41F53AB490029881A /* Assets.xcassets */; };
@@ -21,6 +23,10 @@
 /* Begin PBXFileReference section */
 		FF18B1181F5560DD00D6BBE0 /* TWGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGameViewController.h; sourceTree = "<group>"; };
 		FF18B1191F5560DD00D6BBE0 /* TWGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGameViewController.m; sourceTree = "<group>"; };
+		FF18B11B1F5641BA00D6BBE0 /* TWEge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWEge.h; sourceTree = "<group>"; };
+		FF18B11C1F5641BA00D6BBE0 /* TWEge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWEge.m; sourceTree = "<group>"; };
+		FF18B11E1F564F8000D6BBE0 /* TWBan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBan.h; sourceTree = "<group>"; };
+		FF18B11F1F564F8000D6BBE0 /* TWBan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBan.m; sourceTree = "<group>"; };
 		FF829FA51F53AB490029881A /* BallEatBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallEatBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF829FA91F53AB490029881A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF829FAB1F53AB490029881A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +133,10 @@
 				FF829FD31F53F9D70029881A /* TWBall.m */,
 				FF829FD51F53FDD80029881A /* TWMimi.h */,
 				FF829FD61F53FDD80029881A /* TWMimi.m */,
+				FF18B11B1F5641BA00D6BBE0 /* TWEge.h */,
+				FF18B11C1F5641BA00D6BBE0 /* TWEge.m */,
+				FF18B11E1F564F8000D6BBE0 /* TWBan.h */,
+				FF18B11F1F564F8000D6BBE0 /* TWBan.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,9 +225,11 @@
 				FF829FD71F53FDD80029881A /* TWMimi.m in Sources */,
 				FF18B11A1F5560DD00D6BBE0 /* TWGameViewController.m in Sources */,
 				FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */,
+				FF18B1201F564F8000D6BBE0 /* TWBan.m in Sources */,
 				FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */,
 				FF829FAA1F53AB490029881A /* main.m in Sources */,
 				FF829FD41F53F9D70029881A /* TWBall.m in Sources */,
+				FF18B11D1F5641BA00D6BBE0 /* TWEge.m in Sources */,
 				FF829FCE1F53F5940029881A /* UIView+TWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,11 +41,7 @@
 
 - (void)movemimi:(UIPanGestureRecognizer *)pan{
     if (!self.paused) {
-        
-        
-        
-        
-        
+
     }
 }
 
