@@ -19,13 +19,11 @@
 - (void)setX:(CGFloat)x{
     _x = x;
     self.tw_x = x;
-    [self layoutSubviews];
 }
 
 - (BOOL)checkIfCaught:(CGRect)frame{
     // 传来的x坐标
     CGFloat x = frame.origin.x;
-    TWLog(@"%f",self.tw_x);
     if (x == self.tw_x) {
         if ([_delegate respondsToSelector:@selector(gameoverNoti)]) {
             [_delegate gameoverNoti];

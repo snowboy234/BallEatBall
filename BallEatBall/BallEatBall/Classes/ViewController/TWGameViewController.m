@@ -9,11 +9,15 @@
 #import "TWGameViewController.h"
 #import "TWEge.h"
 #import "TWBan.h"
+#import "Score.h"
 
 @interface TWGameViewController ()<TWEgeDelegate, TWBanDelegate>
 @property (nonatomic, strong) UIImageView * dangbanView;
 @property (nonatomic, assign) BOOL move;
 @property (nonatomic, assign) BOOL paused;
+@property (nonatomic, strong) UILabel * scoreLabel;
+@property (nonatomic, strong) Score * score;
+@property (nonatomic, strong) NSTimer * timer;
 @end
 
 @implementation TWGameViewController
@@ -22,15 +26,32 @@
     [super viewDidLoad];
     _move = YES;
     _paused = NO;
+    _score = [Score initScore];
     [self bgImageView];
     [self dangbanImageView];
-    [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(createEge) userInfo:nil repeats:YES];
+    [self initScoreLabel];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(createEge) userInfo:nil repeats:YES];
+}
+
+- (void)dealloc{
+    [_timer invalidate];
+    _timer = nil;
+}
+
+- (void)initScoreLabel{
+    _scoreLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, TWScreenWidth, 100)];
+    _scoreLabel.text = [NSString stringWithFormat:@"%d",_score.points];
+    _scoreLabel.textAlignment = NSTextAlignmentCenter;
+    _scoreLabel.textColor = [UIColor whiteColor];
+    _scoreLabel.font = [UIFont fontWithName:@"Chalkduster" size:100];
+    [self.view addSubview:_scoreLabel];
 }
 
 - (void)createEge{
     if (!_paused) {
         NSInteger index = arc4random() % 12;
-        TWEge * ege = [[TWEge alloc]initWithFrame:CGRectMake(index * One, 0, One, One * 141 / 34.0)];
+        CGFloat height = One * 141 / 34.0;
+        TWEge * ege = [[TWEge alloc]initWithFrame:CGRectMake(index * One, -height, One, height)];
         [ege startMoveing];
         ege.delegate = self;
         [self.view addSubview:ege];
@@ -41,6 +62,7 @@
     TWLog(@"gameover");
     _paused = YES;
     // 覆盖蒙版
+    
 }
 
 - (void)checkPosition:(TWEge *)ball{
@@ -48,8 +70,12 @@
         if ([ban checkIfCaught:ball.frame]) {
             ball.caught = YES;
             break;
+        } else {
+            // 没有碰到，就加分
+            [_score addPoints];
         }
         // 显示分数
+        _scoreLabel.text = [NSString stringWithFormat:@"%d",(_score.points / 7)];
     }
 }
 

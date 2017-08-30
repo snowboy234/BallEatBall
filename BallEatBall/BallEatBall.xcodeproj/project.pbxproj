@@ -10,6 +10,7 @@
 		FF18B11A1F5560DD00D6BBE0 /* TWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B1191F5560DD00D6BBE0 /* TWGameViewController.m */; };
 		FF18B11D1F5641BA00D6BBE0 /* TWEge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B11C1F5641BA00D6BBE0 /* TWEge.m */; };
 		FF18B1201F564F8000D6BBE0 /* TWBan.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B11F1F564F8000D6BBE0 /* TWBan.m */; };
+		FF18B1231F565D8E00D6BBE0 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B1221F565D8E00D6BBE0 /* Score.m */; };
 		FF829FAA1F53AB490029881A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FA91F53AB490029881A /* main.m */; };
 		FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF829FAC1F53AB490029881A /* AppDelegate.m */; };
 		FF829FB51F53AB490029881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF829FB41F53AB490029881A /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 		FF18B11C1F5641BA00D6BBE0 /* TWEge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWEge.m; sourceTree = "<group>"; };
 		FF18B11E1F564F8000D6BBE0 /* TWBan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBan.h; sourceTree = "<group>"; };
 		FF18B11F1F564F8000D6BBE0 /* TWBan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBan.m; sourceTree = "<group>"; };
+		FF18B1211F565D8E00D6BBE0 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		FF18B1221F565D8E00D6BBE0 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
 		FF829FA51F53AB490029881A /* BallEatBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallEatBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF829FA91F53AB490029881A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF829FAB1F53AB490029881A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 		FF829FC01F53AB840029881A /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				FF18B1211F565D8E00D6BBE0 /* Score.h */,
+				FF18B1221F565D8E00D6BBE0 /* Score.m */,
 				FF829FC51F53ABC30029881A /* BallEatBall.pch */,
 				FF829FC61F53ABD30029881A /* Define.h */,
 			);
@@ -224,6 +229,7 @@
 			files = (
 				FF829FD71F53FDD80029881A /* TWMimi.m in Sources */,
 				FF18B11A1F5560DD00D6BBE0 /* TWGameViewController.m in Sources */,
+				FF18B1231F565D8E00D6BBE0 /* Score.m in Sources */,
 				FF829FC41F53ABA60029881A /* TWHomeViewController.m in Sources */,
 				FF18B1201F564F8000D6BBE0 /* TWBan.m in Sources */,
 				FF829FAD1F53AB490029881A /* AppDelegate.m in Sources */,
